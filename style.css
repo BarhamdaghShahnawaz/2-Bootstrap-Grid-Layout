@@ -7,7 +7,6 @@
     margin-right: auto;
 }
 
-/* Adjustments for smaller screens */
 @media (max-width: 576px) {
     .mm {
         width: 100%;
