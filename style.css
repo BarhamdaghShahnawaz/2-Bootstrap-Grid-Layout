@@ -1,6 +1,17 @@
 .mm {
-    margin-left: 100px;
     background-color: transparent;
     width: 180px;
     height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+    .mm {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
